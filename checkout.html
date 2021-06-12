@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <title>Checkout</title>
+</head>
+
+<body>
+    <div class="firstHeader">
+        <p class="first_header">100+ New Markdown Added! Up to 50% Off All Sale Styles! Shop Now></p>
+    </div>
+    <div class="wrapper">
+        <div class="firstlinks">
+            <a class="first_link">Find a Store</a>
+            <a class="second_link"> | Contact |</a>
+            <form class="form1">
+                <input type="text" placeholder="Email Address">
+                <button>Join</button>
+            </form>
+            <p class="link-para">Make an Appointment</p>
+        </div>
+        <div class=image_link>
+            <img src="img/logo1.png">
+            <a>New</a>
+            <a>Men</a>
+            <a>Women</a>
+            <a>Boys</a>
+            <a>Girls</a>
+            <a>Sale</a>
+            <a>Our Story</a>
+        </div>
+    </div>
+    <div class="third_link">
+        <a id="hello">Welcome,</a> <a id="diff"> Sign in</a>
+        <a id="travel">| Ship To |</a>
+        <a id="sack">Bag</a>
+    </div>
+    </div>
+    <div class="first_rule">
+        <img src="img/sweat1.jpg">
+    </div>
+
+    <div class="beau_ty">
+        <h3>Boys' Stillwater Sherpa 1/4-Zip </h3>
+    </div>
+
+    <div class="category">
+        <p id="type"> Type: <span id="remove1">Sweat Shirt</span></p>
+        <p id="quantity_update"> Quantity: <span id="insertNewQuantity"></span></p>
+        <p id="price"> Price: <span id="remove2">$98.50</span> </p>
+        <p id=size> Size: <span id="remove3">XS</span></p>
+    </div>
+
+    <div class="instruct">
+        <input type="number" class="update" placeholder="Update Quantity" id="update" min="0" max="100">
+        <input type="button" value="Update Cart" onclick="update()" class="cart_U">
+        <input type="text" class="update" placeholder="Insert Coupon" id="insert_coupon" maxlength="10">
+        <button class="delete" onclick="delete_btn()">Delete products</button>
+        <button class="cost" onclick="add_cost()">Total Cost</button>
+        <button class="add" onclick="add_coup()">Add Coupon</button>
+        <button class="product" onclick="back_product()">Back to Product</button>
+        <p class="subTotal">Sub Total: <span id="sub_total"></span></p>
+    </div>
+
+    <script src="mini_project.js"></script>
+
+</body>
+
+</html>

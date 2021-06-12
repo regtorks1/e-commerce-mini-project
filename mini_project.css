@@ -1,0 +1,589 @@
+body{
+     overflow-x:hidden;
+     height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.firstHeader{
+    background-color: #0b0b46;
+    padding: 0.5px;
+}
+
+.first_header{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.firstlinks{
+    margin: 2%;
+    padding: none;
+    display: inline-block;
+    
+}
+
+.firstlinks .first_link{
+       color: #090992;
+       font-weight: bold;
+       
+}
+
+.firstlinks .first_link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.firstlinks .second_link{
+    color: #090992;
+}
+
+.firstlinks .second_link:hover{
+          text-decoration: underline;
+          cursor: pointer;
+}
+
+.form1{
+    display : inline-block;
+}
+
+button{
+    background-color:#7d7de7;
+    color:white;
+    border-radius: 4px;
+    padding: 5px;
+    text-transform: uppercase;
+    border:none;
+    width:50px
+
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+.link-para{
+    color:#090992;
+    font-weight: bold;
+    padding: 1px;
+}
+
+.link-para:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ img{
+    width: 17%;
+    height: 17%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -110px;
+            
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+.image_link{
+      text-align:center;
+}
+
+.image_link a{
+    display:inline-block;
+    padding: 8px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color:#090992;;
+    position: relative;
+    top: -100px;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.image_link a:hover{
+    cursor: pointer;
+    background-color:#7d7de7;
+    color: white;
+}
+
+.third_link{
+    position: relative;
+    left: 1090px;
+    top: -200px;
+     
+    
+}
+
+.third_link a {
+    color:#090992;
+    font-family:sans-serif;
+    font-size: 15px;
+    padding: 3px;
+}
+
+.third_link:hover{
+    cursor: pointer;
+} 
+
+.third_link #diff{
+    font-weight: bold;  
+}
+
+.third_link #diff:hover{
+     text-decoration: underline;
+}
+
+.third_link #hello:hover{
+    text-decoration: underline;
+}
+
+ hr{
+    position: relative;
+    top: -100px;
+    width: 100%;
+}
+
+.sweat{
+    margin: 3%;  
+}
+
+.sweat a{
+    color:#090992;
+    position: relative;
+    top: -131px;
+    font-size: 13px;
+    padding: 5px;
+    
+}
+
+.sweat a:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.sweat img{
+    position: relative;
+    left: -48%;
+    width: 5%;
+    height: 5%;
+    padding: 3px;
+}
+
+.beau_sweat img{
+    width: 55%;
+    height: 55%;
+    position: relative;
+    top: -365px;
+    left: -200px;
+}
+.description{
+    position: relative;
+    right: -900px;
+    top: -1250px;
+}
+
+.description h1{
+    color:#090992;
+}
+
+.description h2{
+    color: #090992;
+}
+
+.circles{
+    height: 25px;
+    width: 25px;
+    background-color:#7d7de7;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.round{
+    height: 25px;
+    width: 25px;
+    background-color:aquamarine;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.dot{
+    height: 25px;
+    width: 25px;
+    background-color:crimson;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.figures{
+    height: 25px;
+    width: 25px;
+    background-color:mediumpurple;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.bue{
+    height: 25px;
+    width: 25px;
+    background-color:rosybrown;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circles:hover{
+    cursor:pointer;
+}
+
+.round:hover{
+    cursor: pointer;
+}
+
+.dot:hover{
+    cursor: pointer;
+}
+
+.figures:hover{
+    cursor: pointer;
+}
+
+.bue:hover{
+    cursor: pointer;
+}
+
+
+
+.design{
+    font-weight: bold;
+}
+
+.underline{
+    padding: 20px;
+    text-decoration:underline;
+}
+
+.underline:hover{
+    cursor: pointer;
+}
+
+.button_styles button{
+    background-color: rgb(223, 219, 219);
+    color: grey;
+    padding: 10px;
+    border-radius: 0%;
+}
+
+.button_styles button:hover{
+    background-color:#090992;
+    color:white;
+}
+ 
+.roll{
+    padding: 40px;
+    position: relative;
+    left: -40px;
+}
+
+.number_button button{
+    background-color:white;
+    color: #090992;
+    border-radius: 50%;
+    border: 1px #090992 solid;
+    width: 25px;
+    font-weight:bold;
+}
+
+.number_button input{
+    width: 50px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.cart{
+     width: 30%;
+     padding: 2%;
+     background-color: #0b0b46;
+     font-size: 15px;
+     font-weight: bold;
+     border-radius: 0%;
+}
+
+.button{
+    margin: 5px;
+}
+
+.cart_add{
+    width: 30%;
+    padding: 0.5%;
+    background-color: white;
+    color: #0b0b46;
+    border: 1px solid #0b0b46;
+    position: relative;
+    left: 3px;
+    border-radius: 0%;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.cart_add p{
+    font-size: 10px;
+}
+
+.deliver {
+      font-weight: bold;
+      font-family: sans-serif;
+      color:#0b0b46;
+      padding: 2px;
+      position: relative;
+      left: 40px;
+}
+
+.del_1 {
+      color: #5b5ba3;
+      padding: 2px;
+      position:relative;
+      left: 40px;
+}
+
+.del_1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.hi_amazon img{
+        display: inline-block;
+        height: 4%;
+        width: 4%;
+        position: relative;
+        top: 22px;
+        left: 110px;
+
+}
+
+.hi_amazon p{
+         padding: 20px;
+         position: relative;
+         left: 78px;
+         font-size: 13px;
+         color:#090992;
+}
+
+.zmdi{
+    padding: 20px;
+    position: relative;
+    top: -20px;
+    left: 20px;
+    color:#090992;
+}
+
+.firstPanel {
+    background-color: #0b0b46;
+    color : white;
+    font-weight: bold;
+    padding: 5px;
+    width: 35%;
+    font-size: 18px;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.closeNav {
+        padding: 80px;
+        font-size: 20px;
+        text-align: center;
+        
+
+}
+
+.closeNav:hover{
+         cursor: pointer;
+}
+
+.wrap_text{
+       position: relative;
+       left: 50px;
+}
+
+
+
+.aside_img {
+        height: 70%;
+        width: 70%;
+        position: relative;
+        top: 130px;
+        left: -380px;
+}
+
+.aside_text {
+       position: relative;
+       right: -200px;
+       top: -180px;
+       color:#090992;
+}
+
+.aside_text .aside_para{
+        font-weight: bold;
+        font-size: 20px        
+
+}
+
+.nextLine{
+    background-color: rgb(216, 205, 205);
+    color:#0b0b46;
+    width: 35%;
+    padding: 5px;
+    position: relative;
+    top: -150px;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+hr{
+    width: 38%;
+    position: relative;
+    right: 450px;
+    top: -120px;
+}
+
+.cart_total{
+      font-family:sans-serif;
+      color:#0b0b46;
+      font-weight: bold;
+      text-transform: uppercase;
+}
+
+.amount {
+      font-family: sans-serif;
+      color:#0b0b46;
+      font-weight: bold;
+      position: relative;
+      left: 390px;
+      top: -40px
+}
+
+.full_Up{
+    background-color: rgb(43, 145, 43);
+    border: 1px solid rgb(43, 145, 43);
+    padding: 10px;
+    width: 36%;
+    border-radius: 10px;
+    position: relative;
+    top : -30px
+}
+
+.qualify{
+    color:#0b0b46;
+    position: relative;
+    top: -20px;
+    font-family: sans-serif;
+}
+
+.drag{
+    position: relative;
+    top: -160px;
+}
+
+.new_rule{
+      position: relative;
+      top: -180px;
+}
+
+.checkout {
+      background-color: #0b0b46;
+      width: 35%;
+      padding: 20px;
+      border-radius: 0;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 15px;
+      position: relative;
+      top: -180px;
+}
+
+.continue_shopping {
+        background-color: white;
+        color: #090992;
+        border:#090992 1px solid;
+        width: 36%;
+        padding: 20px; 
+        position: relative;
+        left: -488px;
+        border-radius: 0;
+        top: -120px;
+}
+
+.side_panel{
+    position: relative;
+    top: -2380px;
+    right: -865px;
+    overflow-x: hidden;
+    background-color: white;
+    width: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
